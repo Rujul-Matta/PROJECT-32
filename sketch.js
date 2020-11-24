@@ -170,7 +170,7 @@ function draw() {
   getTime();
 } 
 async function getTime(){
-  var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Tokyo")
+  var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata")
   var date_timeJSON = await response.json();
   var time = date_timeJSON.datetime;
 
